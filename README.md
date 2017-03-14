@@ -10,6 +10,10 @@ After loading your plugins (including this one), do:
 call deoplete#custom#set('_', 'matchers', ['matcher_better_length', 'matcher_fuzzy'])
 ```
 
+## Why "better"
+
+Personal preference; and I couldn't think of a better name.
+
 ## Links
 
 * [Deoplete issue #445](https://github.com/Shougo/deoplete.nvim/pull/445)
