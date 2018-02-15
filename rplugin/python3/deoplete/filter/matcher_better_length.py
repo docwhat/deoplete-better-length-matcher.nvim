@@ -13,8 +13,8 @@ class Filter(Base):
     def __init__(self, vim):
         super().__init__(vim)
 
-        self.name = 'matcher_length'
-        self.description = 'length matcher'
+        self.name = 'matcher_better_length'
+        self.description = 'better length matcher'
 
     def filter(self, context):
         input_len = len(context['complete_str'])
